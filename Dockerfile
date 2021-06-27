@@ -1,7 +1,7 @@
-FROM cheveo/php-apache
+FROM cheveo/webdevops-php-apache
 
 WORKDIR /app
-RUN wget http://fahrzeuge.emilfrey.de/typo3_src-7.6.41.tar.gz -O typo3_src-7.6.41.tar.gz
+RUN wget https://files.carmato.de/share/typo3_src-7.6.41.tar.gz -O typo3_src-7.6.41.tar.gz
 RUN tar -xzf typo3_src-7.6.41.tar.gz
 RUN rm typo3_src-7.6.41.tar.gz
 
