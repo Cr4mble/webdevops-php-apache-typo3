@@ -1,4 +1,4 @@
-FROM cheveo/webdevops-php-apache:1.2.0
+FROM cheveo/webdevops-php-apache:1.4.0
 
 WORKDIR /app
 RUN wget https://files.carmato.de/share/typo3_src-7.6.41.tar.gz -O typo3_src-7.6.41.tar.gz
